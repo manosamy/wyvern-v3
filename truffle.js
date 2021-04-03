@@ -1,8 +1,10 @@
-var HDWalletProvider = require('truffle-hdwallet-provider')
+require('dotenv').config();
+var HDWalletProvider = require('truffle-hdwallet-provider');
 
-var rinkebyMnemonic = ''
-var mumbaiMnemonic = ''
-var mainnetMnemonic = ''
+var rinkebyMnemonic = process.env.RINKEBY_MNEMONIC;
+var mumbaiMnemonic = process.env.MUMBAI_MNEMONIC;
+var mainnetMnemonic = process.env.MAINNET_MNEMONIC;
+var xdaiMnemonic = process.env.XDAI_MNEMONIC;
 
 module.exports = {
   mocha: {
@@ -49,7 +51,22 @@ module.exports = {
       },
       from: '',
       network_id: '80001'
-      }
+      },
+    xdai: {
+      provider: function() {
+        return new HDWalletProvider(xdaiMnemonic, 'https://rpc.xdaichain.com/')
+      },
+      network_id: "100",
+      deploymentPollingInterval: 1000,
+      gas: 4000000 
+    },
+    xdaidev: {
+      host: 'localhost',
+      port: 8545,
+      network_id: '50',
+      gas: 6700000
+    },
+
   },
   compilers: {
     solc: {

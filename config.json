@@ -1,27 +1,23 @@
 {
   "deployed": {
-    "rinkeby": {
-      "Migrations": "0x59851C99DFdD6b564840Bf762faA04a08CC947C9",
-      "WyvernAtomicizer": "0x4b989C43bb5283B19e6cF6C6cD85b1801B1b81F4",
-      "WyvernRegistry": "0x30caa00562AD2f2B41BB4b1943d28F84832ce0D6",
-      "WyvernExchange": "0xF40D3F036528Ed87b83748306c719757f22be4fE",
-      "WyvernStatic": "0x8Ee31C795d472a1d875621f0c4706B455011aD55",
-      "TestERC20": "0x9aEEfb174928ac0c5b70949808Ec6E30ef4D439B",
-      "TestERC721": "0xa50bd876df59C35BE8fCe3FEd239DCe8C378a25f"
+    "develop": {
+      "Migrations": "0x16C4D3684eE7F9BC288dBB1371274ccfd74035AC",
+      "WyvernAtomicizer": "0x25Ab0a2A20BabA2b5cCD2338F2591A2b76fb55fD",
+      "WyvernStatic": "0xE5155D093895BF62f07930F1BD563984F1465AeC",
+      "StaticMarket": "0xE138FFb269804735B8034432B6686a0C0B3acaa9",
+      "WyvernRegistry": "0xC7aFF7a8301A0079eb2C46EC82d5Fab74960eb04",
+      "WyvernExchange": "0xf6C8752Fe1b4a6D3A67aE89435FB0c872d53ccbD"
     },
-    "mainnet": {
-      "Migrations": "0x2020bc01065f82f1ACfAcD93671FF339bD65f322",
-      "WyvernAtomicizer": "0x63A983B3cbb719024d4203A636118Ea899d14d2a",
-      "WyvernStatic": "0x32Ce15F191aFD85072A594f388A78D3f6Bf6a9Bf",
-      "WyvernRegistry": "0xa5409ec958C83C3f309868babACA7c86DCB077c1",
-      "WyvernExchange": "0xd7CA74fF003c90E62505D21ec7Dac36bCfD9F6f2"
+    "xdai": {
+      "Migrations": "0x07F7D427C0452cA20a45A79b0336717F46fF81f9"
     },
-    "mumbai": {
-      "Migrations": "0xAF9922A95b8003ead7049b2c48E5d0F96746BE51",
-      "WyvernAtomicizer": "0xb5aA89f557E2B94f2eC37e83dCB5774b74590143",
-      "WyvernStatic": "0x489bA5784794A488FE791a13a8BcFDF73a9fbc1b",
-      "WyvernRegistry": "0x4F9da1e9Ca5b6363D5fEf16724b3437a18B2A3f1",
-      "WyvernExchange": "0x2BfDC44a24DA6Dd8bCc632c174254B268cB11aa0"
+    "xdaidev": {
+      "Migrations": "0x2611522d369eaA8252a3C1Dd66F1CDC3Fc031F5b",
+      "WyvernAtomicizer": "0xe21b1C51CdC3bB6bA3Bfe2003ff419BC5161d5d9",
+      "WyvernStatic": "0x945B3dC27fa16a576DE5EEC15Da6006637CeB39B",
+      "StaticMarket": "0x279b55487ACc05aBa4f5ABfCcA50805c056B959F",
+      "WyvernRegistry": "0x9D896D639865cf1082797f16D84208F4837808E0",
+      "WyvernExchange": "0xa6bb78Df7c468fAeFaD8f839f3381d5637E2851a"
     }
   }
 }
